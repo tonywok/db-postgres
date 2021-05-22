@@ -2,13 +2,13 @@
 
 A light-weight wrapper for Ruby exposing [libpq](https://www.postgresql.org/docs/current/static/libpq.html).
 
-[![Development Status](https://github.com/socketry/ffi-postgres/workflows/Development/badge.svg)](https://github.com/socketry/ffi-postgres/actions?workflow=Development)
+[![Development Status](https://github.com/socketry/db-postgres/workflows/Development/badge.svg)](https://github.com/socketry/db-postgres/actions?workflow=Development)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'ffi-postgres'
+    gem 'db-postgres'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ffi-postgres
+    $ gem install db-postgres
 
 ## Usage
 
@@ -27,6 +27,7 @@ Or install it yourself as:
 3.  Commit your changes (`git commit -am 'Add some feature'`)
 4.  Push to the branch (`git push origin my-new-feature`)
 5.  Create new Pull Request
+6.  
 
 ## License
 
