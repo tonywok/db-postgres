@@ -59,6 +59,7 @@ module DB
 				
 				module DateTime
 					def self.parse(string)
+						return if string.nil?
 						parts = string.split(/[\-\s:\.]/)
 						
 						return Time.utc(*parts)
